@@ -1,11 +1,4 @@
-"""
-=========================
-Simple animation examples
-=========================
 
-This example contains two animations. The first is a random walk plot. The
-second is an image animation.
-"""
 #we need to add classes to this so we have a dt
 import numpy as np
 import matplotlib.pyplot as plt
@@ -16,7 +9,7 @@ class world:
 	def __init__(self):
 		self.dt = 1/60
 		self.elapsed_time = 0
-		self.particle = np.asarray([20,55,5,50],dtype=float) #xpos,ypos, vertical velocity ,horizontal velocity
+		self.particle = np.asarray([20,55,5,55],dtype=float) #xpos,ypos, vertical velocity ,horizontal velocity
 		self.g = -9.8
 
 
